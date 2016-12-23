@@ -55,6 +55,25 @@
         "Don't bet on it.",
         "Forget about it."
     ],
+    "shot": [
+        "buys you a Cowboy Shot, Cheers!",
+        "shout you a shot of Smirnoff!",
+        "give you a Jell-o Shot, Yum!",
+        "gave you a shot of Tequila!",
+        "bought you a Jägermeister shot!",
+        "gives you a Mind Eraser shot, don't have too many of em!",
+        "gave you a shot of Vodka!",
+        "shout you a Arruck shot, hic!",
+        "buys you a fireball shot, that'll put some hairs on ya chest!",
+        "got you a shot of Whiskey, Nice and mellow~",
+        "gave you a Buttery Nipple shot, wow.. naughty!"
+     ],
+    "hug": [
+        "gave you a bear hug, yay!",
+        "hugged you softly, cute!",
+        "gives you a hug, awww hugs!!"
+     ],
+        
     "nodatafound": "No previous data found.",
     "currentlang": "\/me Language currently set to: %%LANGUAGE%%",
     "langerror": "\/me The language you've selected isn't available. Please visit %%LINK%% to find a list of languages available.",
@@ -146,7 +165,13 @@
     "eatcookie": "\/me eats a cookie.",
     "nousercookie": "\/em doesn't see %%NAME%% in room and eats a cookie himself.",
     "selfcookie": "\/me @%%NAME%%, you're a bit greedy, aren't you? Giving cookies to yourself, bah. Share some with other people!",
+    "selfshot": "\/me @%%NAME%%, You cant give yourself a shot! Share you greedy bastard!",
+    "shot": "\/me @%%NAMETO%%, %%NAMEFROM%% %%SHOT%%,
+    "nousershot": "\/me %%NAME%% doesn't seem to be here... I'll have the shot myself! Cheers!",
     "cookie": "\/me @%%NAMETO%%, %%NAMEFROM%% %%COOKIE%%",
+    "hug": "\/me @%%NAMETO%%, %%NAMEFROM%% %%HUG%%",
+    "selfhug": "\/me @%%NAME%% hugged themself. awww, someone give them some love?",
+    "nouserhug": "\/me is hugged by %%NAME%%, aww thank you!",
     "cycleguardtime": "\/me [@%%NAME%%] The cycleguard is set to %%TIME%% minute(s).",
     "dclookuprank": "\/me [@%%NAME%%] Only bouncers and above can do a lookup for others.",
     "emojilist": "\/me Emoji list: %%LINK%%",
@@ -206,5 +231,6 @@
     "thorNotClose": "\/me @%%NAME%%, you're not worthy of getting close to the hammer!",
     "thorcd": "\/me @%%NAME%% you can try to lift the hammer in %%TIME%% minutes.",
     "thorWorthy": "\/me @%%NAME%% you're worthy of the hammer :hammer:, congratulations!",
-    "thorNotWorthy": "\/me @%%NAME%% you're not worthy of the hammer."
+    "thorNotWorthy": "\/me @%%NAME%% you're not worthy of the hammer.",
+    "shot": "\/me @%%NAMETO%%, %%NAMEFROM%% %%SHOT%%",
 }
