@@ -2394,7 +2394,7 @@
                         if (space === -1) {
                             API.sendChat (basicBot.chat.gethug) ;
                             return false
-                        },
+                        }
                         else {
                             var name = msg.substring(space + 2) ;
                             var user = basicBot.userUtilities.lookupUserName(name) ;
