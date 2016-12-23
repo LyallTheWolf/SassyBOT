@@ -2442,7 +2442,7 @@
                                 return API.sendChat(subChat(basicBot.chat.selfhug, {name: name}));
                             }
                             else {
-                                return API.sendChat(subChat(basicBot.chat.hug, {nameto: user.username, namefrom: chat.un, hug: this.gethug()}));
+                                return API.sendChat(subChat(basicBot.chat.hug, {nameto: user.username, namefrom: chat.un, hug: this.getHug()}));
                             }
                         }
                     }
