@@ -2413,13 +2413,13 @@
                     }
                 }
             },
-	     hugCommand: {
+	    hugCommand: {
                 command: 'hug',
                 rank: 'user',
                 type: 'startsWith',
                 getHug: function (chat) {
-                    var h = Math.floor(Math.random() * basicBot.chat.hug.length);
-                    return basicBot.chat.hug[h];
+                    var hu = Math.floor(Math.random() * basicBot.chat.hug.length);
+                    return basicBot.chat.hug[hu];
                 },
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
@@ -2442,7 +2442,7 @@
                                 return API.sendChat(subChat(basicBot.chat.selfhug, {name: name}));
                             }
                             else {
-                                return API.sendChat(subChat(basicBot.chat.hug, {nameto: user.username, namefrom: chat.un, hug: this.getHug()}));
+                                return API.sendChat(subChat(basicBot.chat.hug, {nameto: user.username, namefrom: chat.un, cookie: this.getHug()}));
                             }
                         }
                     }
