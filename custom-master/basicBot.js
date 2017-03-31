@@ -2418,8 +2418,8 @@
                 rank: 'user',
                 type: 'startsWith',
                 getHug: function (chat) {
-                    var hu = Math.floor(Math.random() * basicBot.chat.hug.length);
-                    return basicBot.chat.hug[hu];
+                    var hu2 = Math.floor(Math.random() * basicBot.chat.hug.length);
+                    return basicBot.chat.hug[hu2];
                 },
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
